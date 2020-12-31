@@ -1,0 +1,58 @@
+#grid{
+  border: 5px solid pink;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+#grid #article{
+  font-size: 20px;
+  width: 1050px;
+  padding-left:25px;
+}
+#grid ol{
+   border-right: 1px brown solid;
+   border-bottom: 1px brown solid;
+   width:140px;
+   margin: 0;
+   padding: 30px;
+ }
+
+@media(max-width:800px){
+  #grid{
+    display: block;
+   }
+  #grid ol{
+    border-right: none;
+    border-bottom: none;
+   }
+
+  }
+#disqus_thread{
+  border: none;
+  grid: none;
+  width: 10000px;
+  height: 500px;
+}
+div{
+  border: 5px solid brown;
+  margin: 0;
+
+}
+body{
+  margin: 0;
+}
+ a {
+   text-decoration: none;
+ }
+ h1 {
+   text-align: center;
+   font-size: 45px;
+   text-shadow:3px 3px 0.1px pink;
+   border-bottom: 1px brown solid;
+   margin:0;
+   display:block;
+   padding: 20px;
+ }
+ div{
+   display: grid;
+   grid-template-columns: 150px 1fr;
+ }
