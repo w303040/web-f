@@ -26,7 +26,16 @@
     border-right: none;
     border-bottom: none;
    }
-
+   #grid #article h2{
+    text-align: left;
+    width: 500px;
+    height: 300px;
+    font-size: 15px;
+   }
+   #playing{
+    width:230px;
+    height:157.5px;
+   }
   }
 #disqus_thread{
   border: none;
