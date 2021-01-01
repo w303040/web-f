@@ -3,18 +3,20 @@
   display: grid;
   grid-template-columns: 200px 1fr;
 }
-#grid #article{
-  font-size: 20px;
-  width: 1050px;
-  padding-left:25px;
-}
 #grid ol{
-   border-right: 1px brown solid;
-   border-bottom: 1px brown solid;
-   width:140px;
-   margin: 0;
-   padding: 30px;
+  border-right: 1px brown solid;
+  border-bottom: 1px brown solid;
+  margin: 0;
+  padding: 30px;
  }
+#grid #article h2{
+  width: 1500px;
+  height: 550px;
+  text-align: center;
+}
+#playing{
+  border: 10px brown solid;
+}
 
 @media(max-width:800px){
   #grid{
