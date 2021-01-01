@@ -18,7 +18,7 @@
   border: 10px brown solid;
 }
 
-@media(max-width:500px){
+@media(max-width:800px){
   #grid{
     display: block;
    }
