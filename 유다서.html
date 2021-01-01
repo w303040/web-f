@@ -4,34 +4,7 @@
     <title>My Favorite Gospel</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <script>
-      function nightdayhandler(self){
-        var target=document.querySelector('body');
-        if(self.value ==='night') {
-          target.style.backgroundColor = 'black';
-          target.style.color = 'white';
-          self.value ='day';
-
-          var alist = document.querySelectorAll('a');
-          var i = 0;
-          while(i < alist.length){
-            alist[i].style.color = 'powderblue';
-            i = i + 1;
-          }
-        } else {
-          target.style.backgroundColor= 'beige';
-          target.style.color = 'black';
-          self.value ='night';
-
-          var alist = document.querySelectorAll('a');
-          var i = 0;
-          while(i < alist.length){
-            alist[i].style.color = 'blue';
-            i = i + 1;
-          }
-        }
-      }
-    </script>
+    <script src="input.js"></script>
   </head>
   <body style="background-color: beige">
     <h1><a href="index.html">The Holy Bible</a></h1>
