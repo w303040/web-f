@@ -42,6 +42,7 @@
   grid: none;
   width: 1400px;
   height: 500px;
+  padding-left: 20px;
 }
 div{
   border: 5px solid brown;
